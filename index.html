@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F3-module-test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search By Name or Symbol">
+            <button onclick="sortData('marketCap')">Sort By Mkt Cap</button>
+            <button onclick="sortData('percentageChange')">Sort By Percentage</button>
+        </div>
+        <table>
+            <tbody id="datafromapi"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
